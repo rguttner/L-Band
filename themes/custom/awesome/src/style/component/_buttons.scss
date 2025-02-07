@@ -1,0 +1,14 @@
+.button {
+  cursor: pointer;
+  border-radius: .4rem;
+  padding: 1.2rem 1.6rem;
+  height: fit-content;
+
+  & a {
+    text-decoration: none;
+  }
+
+  &:hover {
+    box-shadow: 0 3px 8px 0 rgba(0, 117, 134, 0.35);
+  }
+}

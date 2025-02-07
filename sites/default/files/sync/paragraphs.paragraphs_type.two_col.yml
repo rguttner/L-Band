@@ -1,0 +1,10 @@
+uuid: ddfe655f-22b8-402e-a533-fbe698d8521a
+langcode: cs
+status: true
+dependencies: {  }
+id: two_col
+label: 'Dva sloupce text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

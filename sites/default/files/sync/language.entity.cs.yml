@@ -1,0 +1,9 @@
+uuid: eca669cf-891e-48ec-ac86-fc2640c985b8
+langcode: cs
+status: true
+dependencies: {  }
+id: cs
+label: Czech
+direction: ltr
+weight: 0
+locked: false

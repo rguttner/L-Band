@@ -1,0 +1,10 @@
+uuid: aee700ad-8865-40c3-a2da-4d2be7e7a4b2
+langcode: cs
+status: true
+dependencies: {  }
+id: form
+label: Formulář
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

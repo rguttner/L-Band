@@ -1,0 +1,27 @@
+.article-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2.4rem;
+}
+
+@media only screen and #{$vd-screen-lg-down} {
+  .article-4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and #{$vd-screen-md-down} {
+  .article-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and #{$vd-screen-mi-down} {
+  .article-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .article-4--mobile-gap-8 {
+    gap: .8rem;
+  }
+}

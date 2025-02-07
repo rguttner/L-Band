@@ -1,0 +1,20 @@
+.view-repertoar-items {
+  background: black;
+  padding: 2rem;
+  display: grid;
+  column-gap: 15rem;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.view-repertoar-items::after {
+  content: "";
+  background-color: #fff;
+  width: 2px;
+  height: 81%;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

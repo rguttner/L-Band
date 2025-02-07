@@ -1,0 +1,34 @@
+$padding-inline: 6.4rem;
+$container-max-width: 141.6rem;
+$wide-container-max-width: 132rem;
+$full-container-max-width: 192rem;
+
+$vd-screen-mi: 460px;
+$vd-screen-sm: 600px;
+$vd-screen-md: 768px;
+$vd-screen-ma: 900px;
+$vd-screen-lg: 1100px;
+$vd-screen-xlg: 1300px;
+$vd-screen-xxl: 1465px;
+$header-breakpoint:  600px; // Must be smaller or equal to vd-screen-sm bcs of container padding
+
+$vd-screen-mi-up: "(min-width: #{$vd-screen-mi})";
+$vd-screen-sm-up: "(min-width: #{$vd-screen-sm})";
+$vd-screen-md-up: "(min-width: #{$vd-screen-md})";
+$vd-screen-ma-up: "(min-width: #{$vd-screen-ma})";
+$vd-screen-lg-up: "(min-width: #{$vd-screen-lg})";
+$vd-screen-xlg-up: "(min-width: #{$vd-screen-xlg})";
+$vd-screen-xxl-up: "(min-width: #{$vd-screen-xxl})";
+$header-breakpoint-up:  "(min-width: #{$header-breakpoint})";
+
+$vd-screen-mi-down: "(max-width: #{$vd-screen-mi - 1})";
+$vd-screen-sm-down: "(max-width: #{$vd-screen-sm - 1})";
+$vd-screen-md-down: "(max-width: #{$vd-screen-md - 1})";
+$vd-screen-ma-down: "(max-width: #{$vd-screen-ma - 1})";
+$vd-screen-lg-down: "(max-width: #{$vd-screen-lg - 1})";
+$vd-screen-xlg-down: "(max-width: #{$vd-screen-xlg - 1})";
+$vd-screen-xxl-down: "(max-width: #{$vd-screen-xxl - 1})";
+$header-breakpoint-down:  "(max-width: #{$header-breakpoint - 1})";
+
+$black: #000;
+$white: #FFF;

@@ -1,0 +1,19 @@
+uuid: 706ba40a-c8ea-4ff7-b09e-c3e14e82d5f2
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_long
+    - node.type.audio_sample
+id: node.audio_sample.field_text_long
+field_name: field_text_long
+entity_type: node
+bundle: audio_sample
+label: Název
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

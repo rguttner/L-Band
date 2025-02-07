@@ -1,0 +1,12 @@
+uuid: c10d593e-d293-4caa-b7ab-b1985d106536
+langcode: cs
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.audio_samples
+id: paragraph.audio_samples.default
+targetEntityType: paragraph
+bundle: audio_samples
+mode: default
+content: {  }
+hidden: {  }

@@ -1,0 +1,12 @@
+.audio-sample--teaser {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+
+  .label {
+    p {
+      margin: 0;
+    }
+  }
+}

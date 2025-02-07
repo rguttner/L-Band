@@ -1,0 +1,29 @@
+uuid: a940f82a-4d24-4fe3-a2ba-592d3f0ed29b
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media
+    - media.type.audio
+    - node.type.audio_sample
+id: node.audio_sample.field_media
+field_name: field_media
+entity_type: node
+bundle: audio_sample
+label: Mp3
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      audio: audio
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

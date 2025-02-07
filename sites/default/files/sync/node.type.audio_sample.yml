@@ -1,0 +1,18 @@
+uuid: 058cbe15-4375-4b09-9ba4-a5c32ffa9c68
+langcode: cs
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Ukázka
+type: audio_sample
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

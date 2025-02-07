@@ -1,0 +1,34 @@
+uuid: 90272eca-8b67-437c-aea3-ccc81da8d6ec
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.two_col.field_formatted_text_long
+    - field.field.paragraph.two_col.field_formatted_text_long_2
+    - paragraphs.paragraphs_type.two_col
+  module:
+    - text
+id: paragraph.two_col.default
+targetEntityType: paragraph
+bundle: two_col
+mode: default
+content:
+  field_formatted_text_long:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_formatted_text_long_2:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

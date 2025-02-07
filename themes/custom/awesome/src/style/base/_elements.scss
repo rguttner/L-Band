@@ -1,0 +1,39 @@
+.last-m-0 {
+  & > *:last-child {
+    margin: 0;
+  }
+}
+
+.divider-12 {
+  margin: 0 0 1.2rem;
+}
+
+.divider-16 {
+  margin: 0 0 1.6rem;
+}
+
+.divider-24 {
+  margin: 0 0 2.4rem;
+}
+
+.divider-small {
+  margin: 0 0 4rem;
+}
+
+.divider-large {
+  margin: 0 0 8rem;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+@media only screen and #{$vd-screen-sm-down} {
+  .divider-large {
+    margin: 0 0 4rem;
+  }
+
+  .divider-small--mobile-24 {
+    margin: 0 0 2.4rem;
+  }
+}

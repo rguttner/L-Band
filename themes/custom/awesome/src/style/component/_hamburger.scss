@@ -1,0 +1,38 @@
+.hamburger {
+  display: none;
+}
+
+@media only screen and #{$vd-screen-md-down} {
+  .hamburger {
+    height: 100%;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    justify-self: end;
+    padding: 1.2rem 1.6rem;
+    border-radius: .4rem;
+
+    .bar {
+      display: block;
+      width: 1.6rem;
+      height: 2px;
+      margin: 2px auto;
+      transition: all 0.3s ease-in-out;
+      background-color: #000000;
+    }
+  }
+
+  .hamburger.is-active {
+    span:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    span:nth-child(2) {
+      opacity: 0;
+    }
+
+    span:nth-child(3) {
+      transform: translateY(-5px) rotate(-45deg);
+    }
+  }
+}

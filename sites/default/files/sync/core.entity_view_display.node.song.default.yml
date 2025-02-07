@@ -1,0 +1,28 @@
+uuid: cf55dbd0-1f08-4459-b9fd-d369d74d7a27
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.field.node.song.field_interpret
+    - node.type.song
+  module:
+    - user
+id: node.song.default
+targetEntityType: node
+bundle: song
+mode: default
+content:
+  field_interpret:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

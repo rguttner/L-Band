@@ -1,0 +1,10 @@
+uuid: 6cbfdec2-48a0-4f81-9a10-a0b876bfd9f6
+langcode: cs
+status: true
+dependencies: {  }
+id: two_col_wrapper
+label: 'Dva sloupce wrapper'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

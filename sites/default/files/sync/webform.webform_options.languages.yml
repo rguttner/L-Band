@@ -1,0 +1,14 @@
+uuid: ba2c3c82-1567-4299-a2dd-f3b6ca885979
+langcode: cs
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: mYH14Vi65Ixj10c_GFa7CipxU3D0Bt9wgo8zE8zjOfE
+id: languages
+label: Jazyky
+category: Jazyk
+likert: false
+options: ''

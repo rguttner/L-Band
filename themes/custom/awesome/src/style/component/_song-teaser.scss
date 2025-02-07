@@ -1,0 +1,18 @@
+.song-teaser__content {
+  display: flex;
+  color: $white;
+  gap: 1rem;
+  white-space: nowrap;
+
+  .interpret {
+    font-weight: 700;
+  }
+
+  .label {
+    font-style: italic;
+  }
+
+  & > div {
+    font-size: 2rem;
+  }
+}

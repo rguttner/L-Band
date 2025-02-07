@@ -1,0 +1,19 @@
+uuid: 40e3f35b-70dd-4fd4-b154-183003f43157
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_interpret
+    - node.type.song
+id: node.song.field_interpret
+field_name: field_interpret
+entity_type: node
+bundle: song
+label: Interpret
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

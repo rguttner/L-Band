@@ -1,0 +1,24 @@
+uuid: b5a7d7ba-9ec2-47fb-a338-06d3077490d9
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.two_col_wrapper.field_entity_reference
+    - paragraphs.paragraphs_type.two_col_wrapper
+  module:
+    - entity_reference_revisions
+id: paragraph.two_col_wrapper.default
+targetEntityType: paragraph
+bundle: two_col_wrapper
+mode: default
+content:
+  field_entity_reference:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

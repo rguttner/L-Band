@@ -1,0 +1,35 @@
+uuid: a98c1190-411a-4f03-be0b-1b0bce1409a2
+langcode: cs
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.audio_sample.field_media
+    - field.field.node.audio_sample.field_text_long
+    - node.type.audio_sample
+  module:
+    - user
+id: node.audio_sample.teaser
+targetEntityType: node
+bundle: audio_sample
+mode: teaser
+content:
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_text_long:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  links: true

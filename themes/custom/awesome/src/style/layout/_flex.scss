@@ -1,0 +1,47 @@
+.d-f {
+  display: flex;
+}
+
+.f-d-c {
+  flex-direction: column;
+}
+
+.f-w {
+  flex-wrap: wrap;
+}
+
+.f-a-s {
+  align-items: flex-start;
+}
+
+.f-a-c {
+  align-items: center;
+}
+
+.f-a-e {
+  align-items: end;
+}
+
+.f-j-s {
+  justify-content: flex-start;
+}
+
+.f-j-c {
+  justify-content: center;
+}
+
+.f-j-e {
+  justify-content: end;
+}
+
+.f-j-sb {
+  justify-content: space-between;
+}
+
+.f-g-24 {
+  gap: 2.4rem;
+}
+
+.f-g-12 {
+  gap: 1.2rem;
+}

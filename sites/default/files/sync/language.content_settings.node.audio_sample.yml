@@ -1,0 +1,11 @@
+uuid: cbe2e13d-d7e7-4f43-a239-fbdc48b95a63
+langcode: cs
+status: true
+dependencies:
+  config:
+    - node.type.audio_sample
+id: node.audio_sample
+target_entity_type_id: node
+target_bundle: audio_sample
+default_langcode: site_default
+language_alterable: false

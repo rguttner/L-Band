@@ -1,0 +1,22 @@
+uuid: 1433a1aa-ed79-4729-9f5f-0db13f4aec21
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.repertoar_overview.field_image
+    - paragraphs.paragraphs_type.repertoar_overview
+id: paragraph.repertoar_overview.default
+targetEntityType: paragraph
+bundle: repertoar_overview
+mode: default
+content:
+  field_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: background
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

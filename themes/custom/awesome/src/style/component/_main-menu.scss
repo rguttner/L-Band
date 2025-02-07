@@ -1,0 +1,26 @@
+.header__navigation {
+  display: grid;
+  grid-template-columns: 20% auto;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.menu {
+  padding: 1rem;
+}
+
+.main-menu {
+  display: grid;
+  grid-auto-flow: column;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.main-menu__li {
+  width: fit-content;
+
+  a {
+    font-size: 2rem;
+    color: $white;
+  }
+}

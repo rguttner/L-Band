@@ -1,0 +1,10 @@
+uuid: 4fb40959-4270-4f28-945f-9f60cb45c29b
+langcode: cs
+status: true
+dependencies: {  }
+id: audio_samples
+label: 'Mp3 ukázky'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

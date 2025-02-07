@@ -1,0 +1,10 @@
+uuid: 316a38ed-b531-4608-bd27-e218a8256aac
+langcode: cs
+status: true
+dependencies: {  }
+id: repertoar_overview
+label: 'Repertoar overview'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

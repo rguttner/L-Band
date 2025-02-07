@@ -1,0 +1,22 @@
+uuid: 5f417e9e-5db6-4500-b709-d9ab442664d4
+langcode: cs
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - awesome
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: awesome_content
+theme: awesome
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Obsah hlavní stránky'
+  label_display: '0'
+  provider: system
+visibility: {  }

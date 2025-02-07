@@ -1,0 +1,29 @@
+uuid: e54095a0-db13-40e9-a434-80e1b54fa870
+langcode: cs
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.song.field_interpret
+    - node.type.song
+  module:
+    - user
+id: node.song.teaser
+targetEntityType: node
+bundle: song
+mode: teaser
+content:
+  field_interpret:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

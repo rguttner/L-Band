@@ -1,0 +1,30 @@
+uuid: a60d77ad-c288-4939-903a-edc9f7d0919f
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.two_col.field_formatted_text_long
+    - field.field.paragraph.two_col.field_formatted_text_long_2
+    - paragraphs.paragraphs_type.two_col
+  module:
+    - text
+id: paragraph.two_col.default
+targetEntityType: paragraph
+bundle: two_col
+mode: default
+content:
+  field_formatted_text_long:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_formatted_text_long_2:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

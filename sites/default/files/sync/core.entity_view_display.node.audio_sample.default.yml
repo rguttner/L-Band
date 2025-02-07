@@ -1,0 +1,38 @@
+uuid: 387f0416-6a15-43a4-b733-27aba574e6a4
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.field.node.audio_sample.field_media
+    - field.field.node.audio_sample.field_text_long
+    - node.type.audio_sample
+  module:
+    - user
+id: node.audio_sample.default
+targetEntityType: node
+bundle: audio_sample
+mode: default
+content:
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_text_long:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

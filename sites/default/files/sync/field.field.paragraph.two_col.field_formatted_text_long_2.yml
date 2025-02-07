@@ -1,0 +1,22 @@
+uuid: 7d16a285-866a-469d-af69-42058f28b2ea
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_formatted_text_long_2
+    - paragraphs.paragraphs_type.two_col
+  module:
+    - text
+id: paragraph.two_col.field_formatted_text_long_2
+field_name: field_formatted_text_long_2
+entity_type: paragraph
+bundle: two_col
+label: Koncerty
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

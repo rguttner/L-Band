@@ -1,0 +1,14 @@
+uuid: a58a416f-fcb0-483b-965b-1fb1186941b9
+langcode: cs
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: k3aUaZXGDuhkek2TZIee0PApOPTvYZLadziekdyHA5A
+id: user_search
+label: Uživatelé
+path: user
+weight: 0
+plugin: user_search
+configuration: {  }
