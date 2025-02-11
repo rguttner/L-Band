@@ -1,6 +1,6 @@
 .two-col__content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
 
   .col {
     padding: 1rem;
@@ -8,7 +8,7 @@
 
   .col:first-of-type {
     display: grid;
-    place-items: center;
+    place-items: baseline;
 
     p {
       border: 2px solid $white;

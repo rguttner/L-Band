@@ -1,0 +1,14 @@
+uuid: ca527016-1a93-4fbb-985a-befd02369daf
+langcode: cs
+status: true
+dependencies:
+  module:
+    - node
+id: page
+label: Stranka
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }
