@@ -27,3 +27,23 @@
     color: $white;
   }
 }
+
+@media only screen and #{$vd-screen-md-down} {
+  .main-menu {
+    display: none;
+  }
+
+  .main-menu.is-active {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    z-index: 1;
+    top: 10rem;
+    background-color: black;
+    width: fit-content;
+    right: 0;
+    align-items: flex-end;
+    padding: 0 6rem;
+    height: 100vh;
+  }
+}

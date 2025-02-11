@@ -4,3 +4,9 @@
   gap: 4rem;
   padding: 2rem;
 }
+
+@media only screen and #{$vd-screen-md-down} {
+  .two-col-wrapper__content {
+    grid-template-columns: 1fr;
+  }
+}

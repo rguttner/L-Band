@@ -18,3 +18,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@media only screen and #{$vd-screen-md-down} {
+  .view-repertoar-items {
+    grid-template-columns: 1fr;
+  }
+
+  .view-repertoar-items::after {
+    content: none;
+  }
+}

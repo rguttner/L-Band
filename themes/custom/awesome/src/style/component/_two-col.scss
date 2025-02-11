@@ -26,3 +26,13 @@
     }
   }
 }
+
+@media only screen and #{$vd-screen-md-down} {
+  .two-col__content {
+    grid-template-columns: 1fr;
+
+    .col:first-of-type {
+      gap: 4rem;
+    }
+  }
+}

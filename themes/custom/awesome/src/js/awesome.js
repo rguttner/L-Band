@@ -17,6 +17,7 @@
 
     hamburger.addEventListener("click", function () {
       this.classList.toggle("is-active");
+      menu.classList.toggle("is-active");
     });
   });
 }(Drupal, jQuery));
