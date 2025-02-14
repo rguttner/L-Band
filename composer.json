@@ -29,6 +29,7 @@
         "drupal/metatag": "^2.0",
         "drupal/paragraphs": "^1.18",
         "drupal/pathauto": "^1.13",
+        "drupal/photoswipe": "^4.0",
         "drupal/redirect": "^1.10",
         "drupal/sitemap": "^2.0",
         "drupal/structure_sync": "^2.0",

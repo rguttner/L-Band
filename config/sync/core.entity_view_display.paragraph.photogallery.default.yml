@@ -1,0 +1,29 @@
+uuid: 6f51cd75-d238-4ce5-8dd5-b3bcf2459819
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.photogallery.field_image
+    - paragraphs.paragraphs_type.photogallery
+  module:
+    - photoswipe
+id: paragraph.photogallery.default
+targetEntityType: paragraph
+bundle: photogallery
+mode: default
+content:
+  field_image:
+    type: photoswipe_field_formatter
+    label: above
+    settings:
+      photoswipe_node_style_first: ''
+      photoswipe_node_style: ''
+      photoswipe_image_style: ''
+      photoswipe_reference_image_field: ''
+      photoswipe_caption: alt
+      photoswipe_caption_custom: ''
+      photoswipe_view_mode: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

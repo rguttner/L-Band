@@ -1,0 +1,10 @@
+uuid: 31434754-6439-4f6f-8728-db5e362ed311
+langcode: cs
+status: true
+dependencies: {  }
+id: photogallery
+label: Fotogalerie
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

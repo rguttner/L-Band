@@ -1,0 +1,29 @@
+uuid: daa36b96-8071-454d-8920-a69bc53ab8e7
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image
+    - media.type.image
+    - paragraphs.paragraphs_type.photogallery
+id: paragraph.photogallery.field_image
+field_name: field_image
+entity_type: paragraph
+bundle: photogallery
+label: Obrázky
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

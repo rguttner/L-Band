@@ -72,9 +72,10 @@ display:
           separator: ', '
           field_api_classes: false
       pager:
-        type: none
+        type: some
         options:
           offset: 0
+          items_per_page: 28
       exposed_form:
         type: basic
         options:
