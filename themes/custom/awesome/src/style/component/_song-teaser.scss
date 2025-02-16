@@ -4,15 +4,29 @@
   gap: 1rem;
   white-space: nowrap;
 
+  p {
+    margin: 0;
+  }
+
   .interpret {
     font-weight: 700;
+    font-size: clamp(1.2rem, 0.45454545454545453vw + 1.3636363636363638rem, 2rem);
   }
 
   .label {
     font-style: italic;
+    font-size: clamp(1.2rem, 0.45454545454545453vw + 1.3636363636363638rem, 2rem);
   }
 
   & > div {
     font-size: 2rem;
+  }
+}
+
+@media only screen and #{$vd-screen-md-down} {
+  .song-teaser__content {
+    .label {
+      white-space: normal;
+    }
   }
 }

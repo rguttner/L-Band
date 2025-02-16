@@ -1,3 +1,9 @@
 .audio-samples__overview {
   width: fit-content;
 }
+
+@media only screen and #{$vd-screen-md-down} {
+  .audio-samples__overview {
+    margin: 0 auto;
+  }
+}

@@ -33,3 +33,9 @@
     }
   }
 }
+
+@media only screen and #{$vd-screen-md-down} {
+  .photoswipe-gallery {
+    grid-template-columns: 1fr;
+  }
+}

@@ -11,3 +11,9 @@
     }
   }
 }
+
+@media only screen and #{$vd-screen-md-down} {
+  .audio-sample--teaser {
+    flex-flow: column;
+  }
+}
