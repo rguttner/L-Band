@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.audio_sample.field_media
-    - field.field.node.audio_sample.field_text_long
     - node.type.audio_sample
   module:
     - user
@@ -22,13 +21,6 @@ content:
       link: false
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_text_long:
-    type: basic_string
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
     region: content
 hidden:
   langcode: true

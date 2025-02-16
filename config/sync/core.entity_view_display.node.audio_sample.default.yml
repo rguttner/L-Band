@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.audio_sample.field_media
-    - field.field.node.audio_sample.field_text_long
     - node.type.audio_sample
   module:
     - user
@@ -21,13 +20,6 @@ content:
       link: false
     third_party_settings: {  }
     weight: 101
-    region: content
-  field_text_long:
-    type: basic_string
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 102
     region: content
   links:
     settings: {  }
