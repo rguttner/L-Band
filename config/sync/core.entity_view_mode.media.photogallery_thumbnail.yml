@@ -1,0 +1,11 @@
+uuid: 47c33598-39ca-49cf-a523-1c45115f73a0
+langcode: cs
+status: true
+dependencies:
+  module:
+    - media
+id: media.photogallery_thumbnail
+label: Fotogalerie-nahled
+description: ''
+targetEntityType: media
+cache: true

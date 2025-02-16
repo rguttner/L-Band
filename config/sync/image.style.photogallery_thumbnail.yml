@@ -1,0 +1,21 @@
+uuid: 688588fb-5480-438f-b9ba-4e009c2a5a83
+langcode: cs
+status: true
+dependencies: {  }
+name: photogallery_thumbnail
+label: 'Fotogalerie nahled'
+effects:
+  d9921056-4ff8-4c32-a0ba-e6dd3ab0d780:
+    uuid: d9921056-4ff8-4c32-a0ba-e6dd3ab0d780
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 360
+      anchor: center-center
+  c1dd83bb-fae5-43f9-a6a0-436ed6758959:
+    uuid: c1dd83bb-fae5-43f9-a6a0-436ed6758959
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

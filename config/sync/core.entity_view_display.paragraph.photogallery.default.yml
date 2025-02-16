@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.photogallery.field_image
+    - image.style.photogallery_thumbnail
     - paragraphs.paragraphs_type.photogallery
   module:
     - photoswipe
@@ -17,12 +18,12 @@ content:
     label: above
     settings:
       photoswipe_node_style_first: ''
-      photoswipe_node_style: ''
+      photoswipe_node_style: photogallery_thumbnail
       photoswipe_image_style: ''
-      photoswipe_reference_image_field: ''
+      photoswipe_reference_image_field: field_media_image
       photoswipe_caption: alt
       photoswipe_caption_custom: ''
-      photoswipe_view_mode: ''
+      photoswipe_view_mode: default
     third_party_settings: {  }
     weight: 0
     region: content
