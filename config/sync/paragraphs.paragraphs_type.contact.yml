@@ -1,0 +1,10 @@
+uuid: 5a4073ae-bd8e-400e-8b89-f0962e645ad6
+langcode: cs
+status: true
+dependencies: {  }
+id: contact
+label: Kontakt
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

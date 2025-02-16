@@ -1,0 +1,17 @@
+.contact__content {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  width: fit-content;
+
+  .first {
+    border-bottom: 1px solid $white;
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 2rem;
+  }
+
+  .photo {
+    max-width: 12rem;
+  }
+}
