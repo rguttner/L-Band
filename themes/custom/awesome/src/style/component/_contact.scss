@@ -4,8 +4,11 @@
   padding: 2rem;
   width: fit-content;
 
-  .first {
+  & > div:first-of-type {
     border-bottom: 1px solid $white;
+  }
+
+  .first, .second {
     padding-bottom: 2rem;
     display: flex;
     gap: 2rem;

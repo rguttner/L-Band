@@ -3,7 +3,9 @@ langcode: cs
 status: true
 dependencies:
   config:
+    - node.type.audio_sample
     - node.type.page
+    - node.type.song
     - taxonomy.vocabulary.tags
   module:
     - comment
@@ -27,14 +29,25 @@ permissions:
   - 'access files overview'
   - 'access toolbar'
   - 'administer url aliases'
+  - 'create audio_sample content'
   - 'create page content'
+  - 'create song content'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'delete any audio_sample content'
+  - 'delete any song content'
+  - 'delete own audio_sample content'
   - 'delete own files'
   - 'delete own page content'
+  - 'delete own song content'
   - 'delete page revisions'
+  - 'edit any audio_sample content'
+  - 'edit any page content'
+  - 'edit any song content'
+  - 'edit own audio_sample content'
   - 'edit own comments'
   - 'edit own page content'
+  - 'edit own song content'
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'view all revisions'
