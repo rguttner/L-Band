@@ -1,0 +1,10 @@
+uuid: d015302d-fa29-4cc8-9105-006bc8883491
+langcode: cs
+status: true
+dependencies: {  }
+id: main_banner
+label: 'Main banner'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,22 @@
+uuid: 5cb0d40a-dc64-4040-a962-88234b9dd463
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_formatted_text_long
+    - paragraphs.paragraphs_type.main_banner
+  module:
+    - text
+id: paragraph.main_banner.field_formatted_text_long
+field_name: field_formatted_text_long
+entity_type: paragraph
+bundle: main_banner
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

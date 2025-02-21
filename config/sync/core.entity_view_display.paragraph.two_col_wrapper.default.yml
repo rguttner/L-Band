@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.two_col_wrapper.field_entity_reference
+    - field.field.paragraph.two_col_wrapper.field_paraghraps
     - paragraphs.paragraphs_type.two_col_wrapper
   module:
     - entity_reference_revisions
@@ -20,5 +21,14 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_paraghraps:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
     region: content
 hidden: {  }

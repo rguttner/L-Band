@@ -1,3 +1,7 @@
+.two-col {
+  position: relative;
+}
+
 .two-col__content {
   display: grid;
   grid-template-columns: 60% 40%;

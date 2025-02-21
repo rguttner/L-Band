@@ -1,0 +1,20 @@
+uuid: 5582b08a-5876-4348-a18c-2e2be62f6b87
+langcode: cs
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+id: paragraph.field_paraghraps
+field_name: field_paraghraps
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

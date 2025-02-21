@@ -3,11 +3,9 @@ langcode: cs
 status: true
 dependencies:
   config:
-    - field.field.node.page.field_media
     - field.field.node.page.field_paragraphs
     - node.type.page
   module:
-    - media_library
     - paragraphs
     - path
 _core:
@@ -22,13 +20,6 @@ content:
     weight: 10
     region: content
     settings: {  }
-    third_party_settings: {  }
-  field_media:
-    type: media_library_widget
-    weight: 121
-    region: content
-    settings:
-      media_types: {  }
     third_party_settings: {  }
   field_paragraphs:
     type: paragraphs

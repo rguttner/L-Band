@@ -1,0 +1,57 @@
+uuid: 5c1d3b5a-9a17-4ddf-8aaa-ee295332a7d9
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paraghraps
+    - paragraphs.paragraphs_type.two_col_wrapper
+  module:
+    - entity_reference_revisions
+id: paragraph.two_col_wrapper.field_paraghraps
+field_name: field_paraghraps
+entity_type: paragraph
+bundle: two_col_wrapper
+label: 'Pravy sloupec'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      two_col_wrapper: two_col_wrapper
+    negate: 1
+    target_bundles_drag_drop:
+      audio_samples:
+        weight: 11
+        enabled: false
+      contact:
+        weight: 12
+        enabled: false
+      form:
+        weight: 13
+        enabled: false
+      hero_banner:
+        weight: 14
+        enabled: false
+      main_banner:
+        weight: 15
+        enabled: false
+      photogallery:
+        weight: 16
+        enabled: false
+      repertoar_overview:
+        weight: 17
+        enabled: false
+      text:
+        weight: 18
+        enabled: false
+      two_col:
+        weight: 19
+        enabled: false
+      two_col_wrapper:
+        weight: 20
+        enabled: true
+field_type: entity_reference_revisions

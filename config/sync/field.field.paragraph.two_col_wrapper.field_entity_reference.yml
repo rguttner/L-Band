@@ -11,7 +11,7 @@ id: paragraph.two_col_wrapper.field_entity_reference
 field_name: field_entity_reference
 entity_type: paragraph
 bundle: two_col_wrapper
-label: Paragraphs
+label: 'Levy sloupec'
 description: ''
 required: false
 translatable: false
@@ -27,8 +27,20 @@ settings:
       audio_samples:
         weight: 7
         enabled: false
+      contact:
+        weight: 12
+        enabled: false
+      form:
+        weight: 13
+        enabled: false
       hero_banner:
         weight: 8
+        enabled: false
+      main_banner:
+        weight: 15
+        enabled: false
+      photogallery:
+        weight: 16
         enabled: false
       repertoar_overview:
         weight: 9

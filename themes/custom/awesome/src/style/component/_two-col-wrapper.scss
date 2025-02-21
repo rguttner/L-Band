@@ -1,8 +1,74 @@
+.two-col-wrapper {
+  position: relative;
+  background-image: url("/themes/custom/awesome/src/images/background-guitar-3.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .two-col-wrapper__content {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
   gap: 4rem;
   padding: 2rem;
+  display: grid;
+}
+
+.two-col-wrapper__left {
+  p {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    font-size: 2rem;
+    position: relative;
+    color: white;
+    z-index: 1; /* Zajistí, že text bude nad pozadím */
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: -1; /* Posune pseudo-element pod text */
+      border-radius: 20px; /* Volitelné – zaoblené rohy */
+    }
+  }
+}
+
+.two-col-wrapper--right {
+  position: relative;
+
+  .text {
+    position: relative;
+    padding: 2rem;
+    color: white; /* Udrží text bílý a čitelný */
+    z-index: 1;
+  }
+
+  .text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Poloprůhledná černá */
+    z-index: -1; /* Umístí pozadí pod text */
+    border-radius: 10px; /* Volitelně – zaoblené rohy */
+  }
+
+}
+
+.overlay {
+  position: absolute;
+  background-color: black;
+  opacity: .5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
 }
 
 @media only screen and #{$vd-screen-md-down} {

@@ -40,11 +40,12 @@
  */
 #}
 <div class="repertoar-overview">
+  {% if content.field_image %}
+  <div class="repertoar-background">
+    {{ content.field_image }}
+  </div>
   <div class="container">
-    {% if content.field_image %}
-      <div class="repertoar-background">
-        {{ content.field_image }}
-      </div>
+
     {% endif %}
     <div class="repertoar-overview__content">
       <h2>Repertoar</h2>
