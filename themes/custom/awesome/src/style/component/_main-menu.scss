@@ -3,6 +3,8 @@
   grid-template-columns: 20% auto;
   align-items: center;
   padding: 2rem 0;
+  position: relative;
+  z-index: 2;
 }
 
 .menu {
@@ -25,6 +27,7 @@
   a {
     font-size: 2rem;
     color: $white;
+    text-underline-offset: 3px;
   }
 }
 
