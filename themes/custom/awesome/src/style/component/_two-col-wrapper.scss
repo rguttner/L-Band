@@ -44,6 +44,10 @@
     padding: 2rem;
     color: white; /* Udrží text bílý a čitelný */
     z-index: 1;
+
+    img:not(:last-child) {
+      margin-bottom: 3rem;
+    }
   }
 
   .text::before {
