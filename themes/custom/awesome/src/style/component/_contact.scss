@@ -4,6 +4,12 @@
   background-position: center;
 }
 
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
 .contact__content {
   display: grid;
   gap: 2rem;
