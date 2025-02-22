@@ -1,35 +1,7 @@
-.two-col {
-  position: relative;
-}
-
 .two-col__content {
   display: grid;
-  grid-template-columns: 60% 40%;
-
-  .col {
-    padding: 1rem;
-  }
-
-  .col:first-of-type {
-    display: grid;
-    place-items: baseline;
-
-    p {
-      border: 2px solid $white;
-      border-radius: 20px;
-      padding: 2rem;
-      font-size: 2rem;
-    }
-  }
-
-  .col:nth-child(2) {
-    text-align: left;
-    margin-left: 8rem;
-
-    p {
-      font-size: 2rem;
-    }
-  }
+  grid-template-columns: 50% 50%;
+  padding: 1rem;
 }
 
 @media only screen and #{$vd-screen-md-down} {

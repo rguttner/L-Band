@@ -32,6 +32,10 @@
 }
 
 @media only screen and #{$vd-screen-md-down} {
+  .header__navigation {
+    grid-template-columns: auto auto;
+  }
+
   .main-menu {
     display: none;
   }

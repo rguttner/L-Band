@@ -3,7 +3,7 @@
         'name' => 'drupal/legacy-project',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'bfa7b69081bacadea0c1fc737b81641e646ec24f',
+        'reference' => 'bfab2461498b3b9cf1abf35167c0c1a00c83e15d',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -379,6 +379,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/draggableviews' => array(
+            'pretty_version' => '2.1.4',
+            'version' => '2.1.4.0',
+            'reference' => '2.1.4',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/draggableviews',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/entity_reference_revisions' => array(
             'pretty_version' => '1.12.0',
             'version' => '1.12.0.0',
@@ -427,7 +436,7 @@
         'drupal/legacy-project' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'bfa7b69081bacadea0c1fc737b81641e646ec24f',
+            'reference' => 'bfab2461498b3b9cf1abf35167c0c1a00c83e15d',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
