@@ -1,0 +1,13 @@
+uuid: 3679c76a-c4cb-41cf-84e1-d01d69270740
+langcode: cs
+status: true
+dependencies:
+  module:
+    - webform
+id: webform
+configuration:
+  email_to:
+    addresses:
+      -
+        value: rguttner@gmail.com
+        display: rguttner@gmail.com
