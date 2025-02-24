@@ -122,7 +122,7 @@ display:
                 advanced:
                   sort_options: false
                   rewrite:
-                    filter_rewrite_values: All|Vše
+                    filter_rewrite_values: "All|Vše\r\nlidovka|Lidovky"
                     filter_rewrite_values_key: true
                   collapsible: false
                   collapsible_disable_automatic_open: false
