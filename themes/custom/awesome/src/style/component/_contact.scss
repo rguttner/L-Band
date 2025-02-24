@@ -30,3 +30,9 @@
     max-width: 12rem;
   }
 }
+
+@media only screen and #{$vd-screen-md-down} {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
