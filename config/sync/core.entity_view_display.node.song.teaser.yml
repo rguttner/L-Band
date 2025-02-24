@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.song.field_interpret
+    - field.field.node.song.field_selection_list
     - node.type.song
   module:
     - user
@@ -26,4 +27,5 @@ content:
     weight: 100
     region: content
 hidden:
+  field_selection_list: true
   langcode: true

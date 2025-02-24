@@ -1,0 +1,31 @@
+.better-filters {
+  ul {
+    display: grid;
+    grid-auto-flow: column;
+    width: fit-content;
+    padding: 0;
+    gap: 2rem;
+
+    li {
+      width: fit-content;
+      list-style: none;
+      padding: .5rem 2rem;
+      border-radius: 5px;
+      background-color: white;
+
+      &:hover {
+        background-color: #b41e30;
+
+        a {
+          text-decoration: underline;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

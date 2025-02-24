@@ -1,0 +1,21 @@
+uuid: c160aed2-ce1a-438f-b9a0-6dad6b9f8fd2
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_selection_list
+    - node.type.song
+  module:
+    - options
+id: node.song.field_selection_list
+field_name: field_selection_list
+entity_type: node
+bundle: song
+label: Žánr
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

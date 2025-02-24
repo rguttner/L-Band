@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.song.field_interpret
+    - field.field.node.song.field_selection_list
     - node.type.song
   module:
     - path
@@ -25,6 +26,12 @@ content:
     settings:
       rows: 5
       placeholder: ''
+    third_party_settings: {  }
+  field_selection_list:
+    type: options_select
+    weight: 123
+    region: content
+    settings: {  }
     third_party_settings: {  }
   langcode:
     type: language_select
