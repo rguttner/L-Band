@@ -15,8 +15,8 @@ settings:
       value: lidovka
       label: Lidovka
     -
-      value: klasicka
-      label: Klasická
+      value: pop-rock
+      label: Pop-rock
   allowed_values_function: ''
 module: options
 locked: false
