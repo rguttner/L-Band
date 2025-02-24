@@ -19,6 +19,7 @@
 @media only screen and #{$vd-screen-md-down} {
   .repertoar-overview__content {
     width: 100%;
+    min-width: unset;
 
     h2 {
       margin: 0;

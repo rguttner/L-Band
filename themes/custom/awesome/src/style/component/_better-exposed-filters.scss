@@ -29,3 +29,11 @@
     }
   }
 }
+
+@media only screen and #{$vd-screen-md-down} {
+  .better-filters {
+    ul {
+      margin: 0 auto;
+    }
+  }
+}
