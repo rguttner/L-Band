@@ -1,9 +1,20 @@
 .text {
   p {
     margin: 0 0 1rem;
+    text-align: justify;
+  }
+
+  img {
+    margin: 2rem;
+  }
+
+  img:not(:last-child) {
+    margin-bottom: 3rem;
   }
 }
 
 .text__content {
   padding: 1rem;
+  max-width: 100rem;
+  margin: auto;
 }

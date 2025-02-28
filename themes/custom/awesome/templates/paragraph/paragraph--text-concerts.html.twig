@@ -39,45 +39,6 @@
  * use >>>> paragraph--paragraph-name.html.twig
  */
 #}
-<div class="contact divider-large">
-  <div class="container">
-    <h2>Kontakt</h2>
-    <div class="two-col">
-      <div class="contact__content">
-        <div class="first">
-          <div class="info">
-            <p>Kontaktní osoba: Kušnírová Lenka</p>
-            <p>E-mail: <a href="mailto:lau-rea@volny.cz">lau-rea@volny.cz</a></p>
-            <p>Telefon: <a href="tel:608861021">608861021</a></p>
-            <p>Lokalita: Liberec</p>
-          </div>
-          <div class="photo">
-            <img src="/themes/custom/awesome/src/images/lenka.jpeg" alt="Kontakt - Lenka">
-          </div>
-        </div>
-        <div class="second">
-          <div class="info">
-            <p>Kontaktní osoba: Zdeněk Vlásek</p>
-            <p>E-mail: <a href="mailto:zdenekvlasek@seznam.cz">zdenekvlasek@seznam.cz</a></p>
-            <p>Telefon: <a href="tel:777738702">777738702</a></p>
-            <p>Lokalita: Ústí nad Labem</p>
-          </div>
-          <div class="photo">
-            <img src="/themes/custom/awesome/src/images/zdenek.jpeg" alt="Kontakt - Zdenek">
-          </div>
-        </div>
-      </div>
-
-      <div class="right-side">
-        <div class="price-info">
-          <p>- Volejte, pište, na ceně se vždy domluvíme.<br>
-            - Orientační cena pro standartní zábavu 2500/hodina + doprava.<br>
-            - Minimální hrací doba jsou 4 hodiny</p>
-        </div>
-        <div class="contact-form">
-{# {{ drupal_entity('webform', 'contact') }}  #}
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="text-concerts">
+  {{ content.field_formatted_text_long }}
 </div>
