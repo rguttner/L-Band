@@ -1,0 +1,10 @@
+uuid: 7df3c673-08e0-4170-b13f-eaaf12672768
+langcode: cs
+status: true
+dependencies: {  }
+id: text_concerts
+label: 'Text - nasmlouvané koncerty'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

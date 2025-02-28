@@ -1,0 +1,22 @@
+uuid: 208f0d1a-1da3-4c10-8d66-db4209e7eeb0
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_concerts.field_formatted_text_long
+    - paragraphs.paragraphs_type.text_concerts
+  module:
+    - text
+id: paragraph.text_concerts.default
+targetEntityType: paragraph
+bundle: text_concerts
+mode: default
+content:
+  field_formatted_text_long:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

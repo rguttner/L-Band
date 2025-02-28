@@ -1,0 +1,11 @@
+uuid: 5c19f1be-2a3b-46ef-8d42-472bf8bc32d1
+langcode: cs
+status: true
+dependencies:
+  module:
+    - media
+id: media.cke_lightbox
+label: 'CKE lightbox'
+description: ''
+targetEntityType: media
+cache: true

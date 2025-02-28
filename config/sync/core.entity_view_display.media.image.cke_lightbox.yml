@@ -1,0 +1,34 @@
+uuid: 9e3df394-67b9-4214-a332-539c94c5eef0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.cke_lightbox
+    - field.field.media.image.field_media_image
+    - media.type.image
+  module:
+    - image
+_core:
+  default_config_hash: 73xaTNkI5J6sfFcBmNYeuk070X3mQS_iwwWaPYyfG2M
+id: media.image.cke_lightbox
+targetEntityType: media
+bundle: image
+mode: cke_lightbox
+content:
+  field_media_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

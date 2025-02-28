@@ -184,7 +184,10 @@ display:
           admin_label: ''
           plugin_id: list_field
           operator: or
-          value: {  }
+          value:
+            all: all
+            lidovka: lidovka
+            pop-rock: pop-rock
           group: 1
           exposed: true
           expose:

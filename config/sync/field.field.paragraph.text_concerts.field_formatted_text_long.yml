@@ -1,0 +1,24 @@
+uuid: 5a597fc3-5ce4-46f8-94d7-a06c5519aeb7
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_formatted_text_long
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.text_concerts
+  module:
+    - text
+id: paragraph.text_concerts.field_formatted_text_long
+field_name: field_formatted_text_long
+entity_type: paragraph
+bundle: text_concerts
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long
